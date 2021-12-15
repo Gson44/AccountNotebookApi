@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639550836389' stop='1639550837575'>
+    <name>account:</name>
+    <title>account:</title>
+    <test-cases>
+        <test-case start='1639550836391' status='passed' stop='1639550836889'>
+            <name>All Transactions</name>
+            <title>All Transactions</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639550836403' status='passed' stop='1639550836739'>
+                    <name>I send get request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/"</name>
+                    <title>I send get request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1639550836895' status='passed' stop='1639550837062'>
+            <name>Transactions by ID</name>
+            <title>Transactions by ID</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639550836897' status='passed' stop='1639550837060'>
+                    <name>I send get request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/150"</name>
+                    <title>I send get request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/150"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1639550837064' status='passed' stop='1639550837230'>
+            <name>Post a transaction</name>
+            <title>Post a transaction</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639550837065' status='passed' stop='1639550837228'>
+                    <name>I send post request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions", {"createdAt":"2021-12-14T07:00:34.736Z","description":"invoice transaction at Japan - Hegmann using card ending with ***0221 for NAD 1200.00 in account ***04689975","amount":"1200","type":"type 10"}</name>
+                    <title>I send post request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions", {"createdAt":"2021-12-14T07:00:34.736Z","description":"invoice transaction at Japan - Hegmann using card ending with ***0221 for NAD 1200.00 in account ***04689975","amount":"1200","type":"type 10"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1639550837232' status='passed' stop='1639550837399'>
+            <name>Update a transaction</name>
+            <title>Update a transaction</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639550837233' status='passed' stop='1639550837399'>
+                    <name>I send put request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/60", {"createdAt":"2021-12-14T07:00:34.736Z","description":"invoice transaction at China - Hegmann using card ending with ***0221 for NAD 1200.00 in account ***04689975","amount":"600","type":"type 5"}</name>
+                    <title>I send put request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/60", {"createdAt":"2021-12-14T07:00:34.736Z","description":"invoice transaction at China - Hegmann using card ending with ***0221 for NAD 1200.00 in account ***04689975","amount":"600","type":"type 5"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1639550837401' status='passed' stop='1639550837573'>
+            <name>Delete a transaction</name>
+            <title>Delete a transaction</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639550837402' status='passed' stop='1639550837572'>
+                    <name>I send delete request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/61"</name>
+                    <title>I send delete request "https://6151ff8e4a5f22001701d590.mockapi.io/transactions/61"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
